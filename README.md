@@ -1,49 +1,50 @@
-Java Variables Practice
+🟢 Java Variables Programs
 
-This repository contains simple Java programs demonstrating different types of variables in Java: local, instance, and static variables. These programs are ideal for beginners to understand how variable types work and how they behave in different contexts.
+A collection of simple Java programs demonstrating Local, Instance, and Static variables in Java.
 
-🗂 Repository Structure
-variables-in-java/
-├── Datatypes.java        # Demonstrates Local Variables
-├── EmployeeDetails.java  # Demonstrates Instance Variables
-├── College.java          # Demonstrates Static Variables
-└── README.md             # Project documentation
+Overview
 
-💻 Programs Overview
-1. Datatypes.java – Local Variables
+This repository contains three Java programs showcasing different types of variables in Java:
 
-Concept: Local variables are declared inside a method or block and are accessible only within that method or block. They are created when the method is called and destroyed when the method ends.
+Local Variables – Variables declared inside a method or block and accessible only within that scope.
 
-What the program does:
+Instance Variables – Variables tied to a specific instance of a class (object).
 
-Demonstrates taking user input for different variable types.
+Static Variables – Class-level variables shared across all instances of the class.
 
-Performs simple operations like addition, subtraction, multiplication, division, and modulus.
+These examples are perfect for beginners to understand how variables behave differently depending on their scope and type.
 
-Key takeaway: Local variables exist temporarily and cannot be accessed outside the method.
+Programs
+1️⃣ Datatypes.java – Local Variables
 
-2. EmployeeDetails.java – Instance Variables
+Demonstrates the usage of local variables.
 
-Concept: Instance variables are declared inside a class but outside any method. They belong to an object of the class, so each object has its own copy of instance variables.
+Variables are declared and initialized inside the main method.
 
-What the program does:
+Shows basic operations like input from the user and arithmetic operations.
 
-Creates an EmployeeDetails class.
+2️⃣ EmployeeDetails.java – Instance Variables
 
-Initializes instance variables like employee name, ID, and salary.
+Demonstrates instance variables tied to objects.
 
-Demonstrates how each object of the class can have unique values for these variables.
+Each object of EmployeeDetails has its own copy of the variables.
 
-Key takeaway: Instance variables help store data specific to each object.
+Shows how instance variables are initialized and accessed through objects.
 
-3. College.java – Static Variables
+3️⃣ College.java – Static Variables
 
-Concept: Static variables (also called class variables) are declared using the static keyword. They are shared among all objects of a class.
+Demonstrates static variables (class variables).
 
-What the program does:
+A static variable is shared among all instances of the class.
 
-Demonstrates the use of static variables to store common information like college name or address.
+Shows how static variables can be accessed without creating objects.
 
-Shows how changing a static variable affects all objects of the class.
+Concepts Covered
 
-Key takeaway: Static variables are shared across all objects and exist as long as the class is loaded.
+Local Variables: Temporary variables used within methods.
+
+Instance Variables: Object-specific variables stored in memory with each object.
+
+Static Variables: Class-level variables shared by all instances.
+
+Basic Java syntax for input/output, variable declaration, and arithmetic operations.
