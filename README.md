@@ -1,50 +1,38 @@
-🟢 Java Variables Programs
+<h1 style="font-size:40px; color:#1E90FF; text-align:center;">🟢 Java Variables Programs</h1>
 
-A collection of simple Java programs demonstrating Local, Instance, and Static variables in Java.
+<p style="font-size:18px; color:#333333; text-align:center;">
+A collection of Java programs demonstrating <b>Local, Instance, and Static variables</b>.</p>
 
-Overview
+<hr style="border:1px solid #ccc;">
 
-This repository contains three Java programs showcasing different types of variables in Java:
+<h2 style="font-size:32px; color:#FF4500;">Overview</h2>
+<p style="font-size:18px; color:#555555;">
+This repository contains three Java programs showcasing different types of variables:</p>
 
-Local Variables – Variables declared inside a method or block and accessible only within that scope.
+<ul style="font-size:18px; color:#555555;">
+<li><b>Local Variables</b> – Declared inside a method or block, accessible only within that scope.</li>
+<li><b>Instance Variables</b> – Tied to a specific object; each object has its own copy.</li>
+<li><b>Static Variables</b> – Class-level variables shared among all objects.</li>
+</ul>
 
-Instance Variables – Variables tied to a specific instance of a class (object).
+<h2 style="font-size:32px; color:#FF4500;">Programs</h2>
 
-Static Variables – Class-level variables shared across all instances of the class.
+<h3 style="font-size:26px; color:#008000;">1️⃣ Datatypes.java – Local Variables</h3>
+<p style="font-size:18px; color:#555555;">
+Demonstrates the usage of <b>local variables</b>. Variables are declared and initialized inside the <code>main</code> method. Also performs basic arithmetic operations.</p>
 
-These examples are perfect for beginners to understand how variables behave differently depending on their scope and type.
+<h3 style="font-size:26px; color:#008000;">2️⃣ EmployeeDetails.java – Instance Variables</h3>
+<p style="font-size:18px; color:#555555;">
+Demonstrates <b>instance variables</b>. Each object of <code>EmployeeDetails</code> has its own copy of variables, accessed through the object.</p>
 
-Programs
-1️⃣ Datatypes.java – Local Variables
+<h3 style="font-size:26px; color:#008000;">3️⃣ College.java – Static Variables</h3>
+<p style="font-size:18px; color:#555555;">
+Demonstrates <b>static variables</b>. Static variables belong to the class and are shared by all instances. Can be accessed without creating objects.</p>
 
-Demonstrates the usage of local variables.
-
-Variables are declared and initialized inside the main method.
-
-Shows basic operations like input from the user and arithmetic operations.
-
-2️⃣ EmployeeDetails.java – Instance Variables
-
-Demonstrates instance variables tied to objects.
-
-Each object of EmployeeDetails has its own copy of the variables.
-
-Shows how instance variables are initialized and accessed through objects.
-
-3️⃣ College.java – Static Variables
-
-Demonstrates static variables (class variables).
-
-A static variable is shared among all instances of the class.
-
-Shows how static variables can be accessed without creating objects.
-
-Concepts Covered
-
-Local Variables: Temporary variables used within methods.
-
-Instance Variables: Object-specific variables stored in memory with each object.
-
-Static Variables: Class-level variables shared by all instances.
-
-Basic Java syntax for input/output, variable declaration, and arithmetic operations.
+<h2 style="font-size:32px; color:#FF4500;">Concepts Covered</h2>
+<ul style="font-size:18px; color:#555555;">
+<li>Local Variables – Temporary variables used inside methods.</li>
+<li>Instance Variables – Object-specific variables stored separately for each object.</li>
+<li>Static Variables – Shared variables across all objects of a class.</li>
+<li>Basic Java syntax for input/output, variable declaration, and arithmetic operations.</li>
+</ul>
